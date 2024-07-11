@@ -1,5 +1,5 @@
-import * as pdfJS from './pdfjs-4.0.379.min.mjs';
-import * as pdfWorker from './pdfjs-4.0.379.worker.min.mjs';
+import * as pdfJS from './pdfjs-4.0.379.min.js';
+import * as pdfWorker from './pdfjs-4.0.379.worker.min.js';
 
 if (pdfJS != null && pdfWorker != null) {
     pdfJS.GlobalWorkerOptions.workerSrc = pdfWorker;
